@@ -11,46 +11,46 @@ Comandos trabalhados nas aulas e mais alguns que considero importantes, dúvidas
 
 ## Comandos Git
 
-* *Criar um novo repositório*: **git init**
+* *Criar um novo repositório*: `git init`
 
-* *Verificar estado dos arquivos*: **git status**
+* *Verificar estado dos arquivos*: `git status`
 
-* *Adicionar um arquivo específico* (staged area): **git add arquivo.txt**
+* *Adicionar um arquivo específico* (staged area): `git add arquivo.txt`
 
-* *Adicionar todos os arquivos*: **git add .**
+* *Adicionar todos os arquivos*: `git add .`
 
-* *Comitar informando mensagem*: **git commit arquivo.txt -m "mensagem de commit"**
+* *Comitar informando mensagem*: `git commit arquivo.txt -m "mensagem de commit"`
 
-* *Remover arquivo*: **git rm arquivo.txt**
+* *Remover arquivo*: `git rm arquivo.txt`
 
-* *Remover diretório*: **git rm -r diretorio**
+* *Remover diretório*: `git rm -r diretorio`
 
-* *Exibir histórico*: **git log**
+* *Exibir histórico*: `git log`
 
-* *Vincular repositório local a um repositório remoto*: **git remote add origin[repositório]**
+* *Vincular repositório local a um repositório remoto*: `git remote add origin[repositório]`
 
-* *Desvincular um repositório remoto*: **git remote rm[repositório]**
+* *Desvincular um repositório remoto*: `git remote rm[repositório]`
 
 * *Enviar arquivos para o repositório remoto*:
 
-   * Se for o primeiro push: **git push -u origin main**
-   * Se não: **git push**
+   * Se for o primeiro push: `git push -u origin main`
+   * Se não: `git push`
 
-* *Trazer alterações/arquivos do repositório remoto para o local*: **git pull**
+* *Trazer alterações/arquivos do repositório remoto para o local*: `git pull`
 
-* *Clonar um repositório*: **git clone [repositório]**
+* *Clonar um repositório*: `git clone [repositório]`
 
-* *Criar uma nova branch*: **git branch [nome da branch]**
+* *Criar uma nova branch*: `git branch [nome da branch]`
 
-* *Mudando para uma branch existente*: **git checkout [nome da branch]**
+* *Mudando para uma branch existente*: `git checkout [nome da branch]`
 
-* *Fazer um merge*: **git merge [branch]**
+* *Fazer um merge*: `git merge [branch]`
 
-* *Interface gráfica para resolução de conflitos*: **git mergetool**
+* *Interface gráfica para resolução de conflitos*: `git mergetool`
 
-* *Mudar de branch sem fazer commit e sem perder o trabalho*: **git stash**
+* *Mudar de branch sem fazer commit e sem perder o trabalho*: `git stash`
 
-* *Para ver as stashes guardadas*: **git stash list**
+* *Para ver as stashes guardadas*: `git stash list`
 
 
 ## FAQ
